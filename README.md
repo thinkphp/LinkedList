@@ -4,6 +4,11 @@ Lastfm
 Linked List implementation in MooTools.
 
 A linked list is a set of items where each item is part of a node that also contains a link to a node.
+When our primary interest is to go through a collection of items sequentially, one by one, we can organize the items as a linked list:
+a basic data structure where each item contains the information that we need to get to the next item. The primary advantage of linked lists
+over arrays is that the links provide us with the capability to rearrange the items efficiently. This flexivility is gained at the
+expense of quick access to any arbitrary item in the list, because the only way to get to an item in the list is to follow links from the
+beginning. 
 
 http://en.wikipedia.org/wiki/Linked_list#Post_office_box_analogy
 
