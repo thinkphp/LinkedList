@@ -40,6 +40,7 @@ Then
             log(mylist.search(2))
 
 Then
+
         #output:
         >yui,extjs,dojo,jQuery,mootools
         >mootools,jQuery,dojo,extjs,yui
