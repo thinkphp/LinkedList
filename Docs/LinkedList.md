@@ -1,4 +1,4 @@
-Class: LinkedList{#LinkedList}
+Class: LinkedList {#LinkedList}
 ==============================
 
 An Linked List implementation in MooTools.
