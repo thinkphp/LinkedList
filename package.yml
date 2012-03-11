@@ -3,5 +3,5 @@ author: thinkphp
 current: v1.0
 category: utilities
 tags: [linkedlist, list, linked, datastructures, collections]
-docs:  
+docs: https://github.com/thinkphp/LinkedList/blob/master/Docs/LinkedList.md 
 demo: 
