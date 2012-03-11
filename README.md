@@ -38,6 +38,13 @@ First you must to include the JS files in the head of your HTML document.
             log(mylist.display())
             log(mylist.search(2))
 
+        #output:
+        >yui,extjs,dojo,jQuery,mootools
+        >mootools,jQuery,dojo,extjs,yui
+        >dojo
+        >mootools,jQuery,extjs,yui
+        >extjs
+
 References:
 
 - http://en.wikipedia.org/wiki/Linked_list#Post_office_box_analogy
