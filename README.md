@@ -22,6 +22,7 @@ First you must to include the JS files in the head of your HTML document.
         <script type="text/javascript">google.load("mootools", "1.4.5");</script>
         <script type="text/javascript" src="LinkedList.js"></script>
 
+Then
 
         #js
         var mylist = new LinkedList();
@@ -38,6 +39,7 @@ First you must to include the JS files in the head of your HTML document.
             log(mylist.display())
             log(mylist.search(2))
 
+Then
         #output:
         >yui,extjs,dojo,jQuery,mootools
         >mootools,jQuery,dojo,extjs,yui
