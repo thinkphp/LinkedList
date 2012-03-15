@@ -20,7 +20,7 @@ Inserts the specfied value to the beginning of this list.
 
 ### Arguments:
 
-- val `object` the specified value to append
+- val `object` \`Integer` \ `float` \ `mixed`  the specified value to append.
 
 ### Returns:
 
@@ -145,6 +145,15 @@ Takes an input linked list and returns a new linked list with the order of the e
 
 ### Example: 
 
+    mylist.insertAtHead("mootools");
+    mylist.insertAtHead("jQuery");
+    mylist.insertAtHead("dojo");
+    mylist.insertAtHead("extjs");
+    mylist.insertAtHead("yui");
+    console.log(mylist.display())
+    mylist.reverse();
+    console.log(mylist.display())
+
 
 LinkedList Method: getLast {#LinkedList: getLast}
 -------------------------------------------------
@@ -173,7 +182,7 @@ Converts the list into a string representation in reverse mode.
 
 ### Syntax:
 
-    myList.display():
+    myList.displayReverse():
 
 ### Arguments:
 
@@ -182,6 +191,16 @@ Converts the list into a string representation in reverse mode.
 - `String` A string representation of the list in reverse order.
 
 ### Example: 
+
+    mylist.insertAtHead("mootools");
+    mylist.insertAtHead("jQuery");
+    mylist.insertAtHead("dojo");
+    mylist.insertAtHead("extjs");
+    mylist.insertAtHead("yui");
+    console.log(mylist.display())
+    mylist.reverse();
+    console.log(mylist.displayReverse())
+ 
 
 LinkedList Method: display {#LinkedList: display}
 -------------------------------------------------
@@ -202,3 +221,10 @@ Converts the list into a string representation.
 
 ### Example: 
 
+    mylist.insertAtHead("mootools");
+    mylist.insertAtHead("jQuery");
+    mylist.insertAtHead("dojo");
+    mylist.insertAtHead("extjs");
+    mylist.insertAtHead("yui");
+    console.log(mylist.display())
+  
